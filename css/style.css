@@ -143,7 +143,7 @@ section .section-bottom .mouse {
     border: 3px solid var(--text);
     border-radius: 50px;
 
-    margin: 7vh 0 0 0;
+    margin: 3vh 0 0 0;
 }
 
 section .section-bottom .mouse-button {

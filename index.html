@@ -1,61 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-
-    <!--Website Configurations-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="In this website, you can see Larcely's repositories and some informations.">
-    <meta name="keywords" content="Lara, Larcely, Lijaya, GitHub, HTML, CSS, JavaScript, PHP, Csharp, C#, Bootstrap, VueJS, jQuery, MySql">
-    <meta name="author" content="Lara Larcely">
-
-    <title>Larcely's Website</title>
-
-    <link rel="shortcut icon" href="img/favicon.png">
-
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
-    <!--JS-->
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/fontawesome-v5.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
-
-    <!--CSS-->
-    <link rel="stylesheet" href="css/lijaya.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
+	<title>larcely.github.io - Coming Soon</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
 </head>
 <body>
-    <canvas class="background"></canvas>
-    <header class="flex">
-        <nav class="flex" id="first-nav">
-            <a href="#"><i class="fa fa-home"></i>Homepage</a>
-            <a href="#"><i class="fa fa-info"></i>Who Am I?</a>
-        </nav>
-        <div class="logo"></div>
-        <nav class="flex" id="second-nav">
-            <a href="#"><i class="fa fa-music"></i>Music List</a>
-            <a href="#"><i class="fa fa-cloud"></i>Repositories</a>
-        </nav>
-    </header>
-    <section class="flex flex-direction">
-        <div class="section-middle flex flex-direction">
-            <h1>Larcely</h1>
-            <div class="line"></div>
-            <h4>Full Stack Developer</h4>
-        </div>
-        <div class="section-bottom flex">
-            <div class="mouse">
-                <div class="mouse-button"></div>
-            </div>
-        </div>
-    </section>
+	
+	<!--  -->
+	<div class="simpleslide100">
+		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
+		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
+		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
+	</div>
+
+	<div class="size1 overlay1">
+		<!--  -->
+		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
+			<h3 class="l1-txt1 txt-center p-b-25">
+				Coming Soon
+			</h3>
+
+			<p class="m2-txt1 txt-center p-b-48">
+				My website is under construction, follow me for update now!
+			</p>
+
+			<div class="flex-w flex-c-m cd100 p-b-33">
+				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+					<span class="l2-txt1 p-b-9 days">30</span>
+					<span class="s2-txt1">Days</span>
+				</div>
+
+				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+					<span class="l2-txt1 p-b-9 hours">0</span>
+					<span class="s2-txt1">Hours</span>
+				</div>
+
+				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+					<span class="l2-txt1 p-b-9 minutes">0</span>
+					<span class="s2-txt1">Minutes</span>
+				</div>
+
+				<div class="flex-col-c-m size2 bor1 m-l-15 m-r-15 m-b-20">
+					<span class="l2-txt1 p-b-9 seconds">0</span>
+					<span class="s2-txt1">Seconds</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 0,
+			endtimeMonth: 0,
+			endtimeDate: 30,
+			endtimeHours: 0,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
 
 </body>
 </html>

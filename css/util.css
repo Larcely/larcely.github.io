@@ -2888,3 +2888,34 @@ iframe {border: none;}
 	bottom: 0px;
 }
 
+.social-media {
+	font-size: 30px;
+	text-align: center;
+}
+
+.social-media a {
+	color: #b8a6a6;
+	transition: 500ms;
+	margin: 5px;
+}
+
+.social-media a:hover {
+	color: white;
+	font-size: 33px;
+}
+
+#email {
+	font-size: 20px;
+}
+
+#email {
+	font-size: 23px!important;
+}
+
+#email-text {
+	font-size: 20px;
+}
+
+#email-text:hover {
+	font-size: 23px;
+}

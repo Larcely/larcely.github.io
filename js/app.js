@@ -1,0 +1,18 @@
+ScrollReveal().reveal('.overlay-h1', { delay: 350, distance: '150%', origin: 'top', reset: true });
+ScrollReveal().reveal('.overlay-h2', { delay: 550, reset: true  });
+ScrollReveal().reveal('.overlay-button', { delay: 750, distance: '150%', origin: 'bottom', reset: true  });
+ScrollReveal().reveal('.display-2', { delay: 350, origin: 'left', distance: '50px', reset: true  });
+ScrollReveal().reveal('.aboutme p', { delay: 350, origin: 'left', distance: '50px', reset: true  });
+ScrollReveal().reveal('.aboutme-right', { delay: 350, origin: 'right', distance: '50px', reset: true  });
+ScrollReveal().reveal('.languages h3', { delay: 350, origin: 'top', distance: '50px', reset: true  });
+ScrollReveal().reveal('.line-item', { delay: 350, origin: 'bottom', distance: '50px', reset: true  });
+ScrollReveal().reveal('.my-repositories-left', { delay: 350, origin: 'left', distance: '50px', reset: true  });
+ScrollReveal().reveal('.my-repositories-right', { delay: 350, origin: 'right', distance: '50px', reset: true  });
+ScrollReveal().reveal('.videos .headers', { delay: 350, origin: 'top', distance: '50px', reset: true  });
+ScrollReveal().reveal('.videos .headers', { delay: 350, origin: 'top', distance: '50px', reset: true  });
+ScrollReveal().reveal('#video1', { delay: 350, origin: 'left', distance: '50px', reset: true  });
+ScrollReveal().reveal('#video2', { delay: 350, origin: 'bottom', distance: '50px', reset: true  });
+ScrollReveal().reveal('#video3', { delay: 350, origin: 'right', distance: '50px', reset: true  });
+ScrollReveal().reveal('.social-media-header', { delay: 350, origin: 'top', distance: '50px', reset: true  });
+ScrollReveal().reveal('.social-media-items', { delay: 350, origin: 'bottom', distance: '50px', reset: true  });
+ScrollReveal().reveal('.footer div', { delay: 500, reset: true  });

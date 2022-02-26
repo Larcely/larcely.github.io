@@ -1,95 +1,236 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>larcely.github.io - Coming Soon</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+    <!--------------------------------------------- Website Settings ----------------------------------------->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Larcely's GitHub Website">
+    <meta name="keywords" content="Lara, Larcely, Lijaya, GitHub, HTML, CSS, JavaScript, PHP, CSharp, Bootstrap, Vuejs, jQuery, MySQL, Programming, Developer, Webmaster">
+    <meta name="author" content="Larcely">
+
+    <title>larcely.github.io</title>
+
+    <link rel="icon" href="img/favicon.png">
+    <!-------------------------------------------------------------------------------------------------------->
+
+
+
+
+    <!---------------------------------------------------- Fonts --------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.0.0-web/css/all.css">
+    <!---------------------------------------------------------------------------------------------------------->
+
+    <!---------------------------------------------------- CSS ---------------------------------------------->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/larcely.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-------------------------------------------------------------------------------------------------------->
+
+    <!---------------------------------------------------- JS ---------------------------------------------->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <!-------------------------------------------------------------------------------------------------------->
+
 </head>
 <body>
-	
-	<!--  -->
-	<div class="simpleslide100">
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg02.jpg');"></div>
-		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg03.jpg');"></div>
-	</div>
-
-	<div class="size1 overlay1">
-		<!--  -->
-		<div class="size1 flex-col-c-m p-l-15 p-r-15 p-t-50 p-b-50">
-			<h3 class="l1-txt1 txt-center p-b-25">
-				Coming Soon
-			</h3>
-
-			<p class="m2-txt1 txt-center p-b-48">
-				My website is under construction, follow me for update now!
-			</p>
-            <div class="social-media">
-                <a href="https://github.com/Larcely"><i class="fa fa-github"></i></a>
-                <a href="https://www.instagram.com/larcelyofficial/"><i class="fa fa-instagram"></i></a>
-                <a href="https://steamcommunity.com/id/Larcely/"><i class="fa fa-steam"></i></a> <br>
-                <a href="https://www.youtube.com/c/Lijaya"><i class="fa fa-youtube"></i></a>
-                <a href="https://open.spotify.com/user/ryppfphp00uf80gtqf0flo9u1"><i class="fa fa-spotify"></i></a>
-                <a href="https://www.twitch.tv/larcely"><i class="fa fa-twitch"></i></a> <br>
-                <a href="" id="email-text">laralarcely@protonmail.com</a>
+    <div class="page-1" id="home">
+        <div class="overlay flex-direction">
+            <h1 class="overlay-h1"><strong>Larcely</strong></h1> <br>
+            <h2 class="overlay-h2"><strong>I am a developer</strong></h2> <br>
+            <a href="#aboutme" class="btn btn-info display-4 overlay-button"><strong>About me</strong></a>
+        </div>
+    </div>
+    <div class="page-2">
+        <div class="aboutme" id="aboutme">
+            <div class="aboutme-left">
+                <h2 class="display-2">About me</h2>
+                <p>
+                    Hey there! I am Larcely and this is my website. <br>
+                    I am a full stack developer as a student. <br>
+                    You can reach me on my social media accounts.
+                </p>
             </div>
-		</div>
-	</div>
-
-
-
-	
-
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 30,
-			endtimeHours: 0,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
+            <div class="aboutme-right flex">
+                <a href="https://github.com/Larcely" class="flex" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/larcelyofficial/" class="flex" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="flex" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            </div>
+        </div>
+        <div class="languages">
+            <h3 class="display-3">Languages</h3>
+            <div class="languages-line flex">
+                <div class="html5 line-item">
+                    <i class="fa-brands fa-html5"></i>
+                    <h4 class="display-7">HTML5</h4>
+                </div>
+                <div class="css3 line-item">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h4 class="display-7">CSS3</h4>
+                </div>
+                <div class="js line-item">
+                    <i class="fa-brands fa-js"></i>
+                    <h4 class="display-7">JavaScript</h4>
+                </div>
+                <div class="php line-item">
+                    <i class="fa-brands fa-php"></i>
+                    <h4 class="display-7">PHP</h4>
+                </div>
+                <div class="csharp line-item">
+                    <i class="fa-solid fa-bars-progress"></i>
+                    <h4 class="display-7">C#</h4>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="languages">
+            <h3 class="display-3">Frameworks</h3>
+            <div class="languages-line flex">
+                <div class="html5 line-item">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h4 class="display-7">Bootstrap</h4>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="languages">
+            <h3 class="display-3">Libraries</h3>
+            <div class="languages-line flex">
+                <div class="html5 line-item">
+                    <i class="fa-brands fa-vuejs"></i>
+                    <h4 class="display-7">Vue.JS</h4>
+                </div>
+                <div class="html5 line-item">
+                    <i class="fa-brands fa-js-square"></i>
+                    <h4 class="display-7">jQuery</h4>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="languages">
+            <h3 class="display-3">Databases</h3>
+            <div class="languages-line flex">
+                <div class="html5 line-item">
+                    <i class="fa-solid fa-database"></i>
+                    <h4 class="display-7">MySQL</h4>
+                </div>
+            </div>
+        </div>
+        <div class="my-repositories" id="repositories">
+            <div class="my-repositories-left">
+                <h4 class="display-2" id="display2">My Repositories</h4> <br>
+                <a href="https://github.com/Larcely?tab=repositories" class="btn btn-info display-4 overlay-button" target="_blank"><strong>Go to my GitHub</strong></a>
+            </div>
+            <div class="my-repositories-right">
+                <div class="item flex">
+                    <div class="icon-box flex">
+                        <a href="https://github.com/Larcely/larcely.github.io" class="flex iconbox-a" target="_blank"><i class="fa-solid fa-code-branch"></i></a>
+                    </div>
+                    <div class="text-box">
+                        <h4><strong>larcely.github.io</strong></h4>
+                        <p class="display-7">That one is for my website, you can find my GitHub repositories and my youtube videos and some informations about me on this repo.<p>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="icon-box flex">
+                        <a href="https://github.com/Larcely/JS-searchbar" class="flex iconbox-a" target="_blank"><i class="fa-solid fa-code-branch"></i></a>
+                    </div>
+                    <div class="text-box">
+                        <h4><strong>JS-searchbar</strong></h4>
+                        <p class="display-7">A simple JavaScript algorithm for making searchbar.<p>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="icon-box flex">
+                        <a href="https://github.com/Larcely/Larcely" class="flex iconbox-a" target="_blank"><i class="fa-solid fa-code-branch"></i></a>
+                    </div>
+                    <div class="text-box">
+                        <h4><strong>Larcely</strong></h4>
+                        <p class="display-7">Readme repository of my GitHub profile.<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="videos flex-direction" id="videos">
+            <div class="headers">
+                <h2 class="display-2">Videos</h2>
+                <h5>Here is my youtube videos</h5>
+            </div>
+            <div class="videoitems flex">
+                <div class="videoitem" id="video1">
+                    <div class="videoheader"></div>
+                    <div class="videotext">
+                        <h5>Video 1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel culpa nam rerum modi eum possimus, consectetur perspiciatis! Obcaecati, quia.</p>
+                        <a href="#aboutme" class="btn btn-info display-4 overlay-button"><strong>Watch it ></strong></a>
+                    </div>
+                </div>
+                <div class="videoitem" id="video2">
+                    <div class="videoheader"></div>
+                    <div class="videotext">
+                        <h5>Video 2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel culpa nam rerum modi eum possimus, consectetur perspiciatis! Obcaecati, quia.</p>
+                        <a href="#aboutme" class="btn btn-info display-4 overlay-button"><strong>Watch it ></strong></a>
+                    </div>
+                </div>
+                <div class="videoitem" id="video3">
+                    <div class="videoheader"></div>
+                    <div class="videotext">
+                        <h5>Video 3</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vel culpa nam rerum modi eum possimus, consectetur perspiciatis! Obcaecati, quia.</p>
+                        <a href="#aboutme" class="btn btn-info display-4 overlay-button"><strong>Watch it ></strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-media flex-direction" id="accounts">
+            <div class="social-media-header">
+                <h2>My accounts</h2>
+            </div>
+            <div class="social-media-items flex">
+                <a href="https://github.com/Larcely" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/larcelyofficial/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://steamcommunity.com/id/Larcely/" target="_blank"><i class="fa-brands fa-steam"></i></a>
+                <a href="https://www.youtube.com/c/Lijaya" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://open.spotify.com/user/ryppfphp00uf80gtqf0flo9u1" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                <a href="https://www.twitch.tv/larcely" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+            </div>
+        </div>
+        <div class="footer flex" id="footer">
+            <div class="footer-item flex-direction">
+                <h4>Website map</h4>
+                <a href="#home">Home</a>
+                <a href="#aboutme">About me</a>
+                <a href="#repositories">Repositories</a>
+                <a href="#videos">My videos</a>
+                <a href="#accounts">My accounts</a>
+                <a href="#footer">Footer</a>
+            </div>
+            <div class="footer-item flex-direction">
+                <h4>Repositories</h4>
+                <a href="https://github.com/Larcely/larcely.github.io" target="_blank">larcely.github.io</a>
+                <a href="https://github.com/Larcely/JS-searchbar" target="_blank">JS-searchbar</a>
+                <a href="https://github.com/Larcely/Larcely" target="_blank">Larcely</a>
+            </div>
+            <div class="footer-item flex-direction">
+                <h4>Videos</h4>
+                <!--<a href="#">Video 1</a>-->
+            </div>
+            <div class="footer-item flex-direction">
+                <h4>About</h4>
+                <p>Hey there! I am Larcely and this is my website.
+                    I am a full stack developer as a student, you can see my GitHub repositories and my YouTube videos on this website.</p>
+                <div class="email-text">
+                    <i class="fa-solid fa-envelope"></i> laralarcely@protonmail.com
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
 </body>
 </html>
